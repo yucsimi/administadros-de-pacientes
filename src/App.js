@@ -10,7 +10,6 @@ function App() {
     citasIniciales = [];
   }
 
-
   //arreglo de citas
 
   const [citas, guardarCitas] = useState([citasIniciales]);

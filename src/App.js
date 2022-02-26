@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Formulario from "./componentes/Formulario";
 import Cita from "./componentes/Cita";
@@ -9,6 +9,7 @@ function App() {
   if (!citasIniciales) {
     citasIniciales = [];
   }
+
 
   //arreglo de citas
 
